@@ -9,6 +9,7 @@
     background-color:black;
     display:flex;
     align-items:center;
+    justify-content:space-evenly;
 
     
 
@@ -96,4 +97,40 @@
     border-top-right-radius:5%;
     border-bottom-right-radius:5%;
 
+   }
+  
+   .sign-in{
+    width:110px;
+   }
+   .sign-in:hover{
+    border:1px solid white;
+   }
+   .order-summary{
+    width:60px;
+   }
+   .order-summary:hover{
+    border:1px solid white;
+   }
+   .nav-shoping{
+    display:flex;
+    flex-wrap:wrap;
+    width:60px;
+    height:30px;
+   }
+   .nav-shoping:hover{
+    border:1px solid white;
+   }
+   .shoping-logo{
+    color:white;
+    font-size:1.5rem;
+
+   }
+   .nav-shoping-cart{
+    color:#ffffff;
+    font-size:16px;
+    font-weight:700;
+    margin:10px 0px 0px 2px;
+   }
+   .nav-shoping-cart-p{
+    margin-top:8px;
    }
